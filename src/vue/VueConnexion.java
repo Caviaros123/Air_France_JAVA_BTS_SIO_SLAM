@@ -30,11 +30,12 @@ public class VueConnexion extends JFrame implements ActionListener, KeyListener
 	private JPanel panelConnexion = new JPanel (); 
 	
 	public VueConnexion() {
-		this.setTitle("Logiciel de gestion des interventions");
+		this.setTitle("Logiciel de gestion Air France");
 		this.setBounds(100, 100, 600, 350);
 		this.setResizable(false);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.getContentPane().setBackground(new Color (246, 172, 34));
+		// get light blue color: https://www.w3schools.com/colors/colors_picker.asp
+		this.getContentPane().setBackground(new Color(0, 153, 255));
 		this.setLayout(null);
 		
 		//insertion de l'image LOGO dans la fenetre 
