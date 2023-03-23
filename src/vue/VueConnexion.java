@@ -46,7 +46,7 @@ public class VueConnexion extends JFrame implements ActionListener, KeyListener
 		
 		//installation du panel connexion dans la fenetre 
 		this.panelConnexion.setBounds(310, 80, 250, 160);
-		this.panelConnexion.setBackground(new Color (246, 172, 34));
+		this.panelConnexion.setBackground(new Color (0, 153, 255));
 		this.panelConnexion.setLayout(new GridLayout(3,2));
 		
 		this.panelConnexion.add(new JLabel("Votre Email :")); 
