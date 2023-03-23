@@ -81,15 +81,15 @@ public class PanelTechniciens extends PanelPrincipal implements ActionListener
 	}
 	public Object [][] obtenirDonnees ()
 	{
-		ArrayList<Technicien> lesTechniciens = C_Technicien.listerTechniciens(); 
+		ArrayList<Technicien> lesTechniciens = C_Technicien.listerTechniciens();
 		Object [][] matrice = new Object[lesTechniciens.size()][6];
-		int i =0; 
+		int i =0;
 		for (Technicien unTechnicien : lesTechniciens)
 		{
 			matrice[i][0] = unTechnicien.getIdtechnicien();
-			matrice[i][1] = unTechnicien.getNom(); 
-			matrice[i][2] = unTechnicien.getPrenom(); 
-			matrice[i][3] = unTechnicien.getEmail(); 
+			matrice[i][1] = unTechnicien.getNom();
+			matrice[i][2] = unTechnicien.getPrenom();
+			matrice[i][3] = unTechnicien.getEmail();
 			matrice[i][4] = unTechnicien.getTel();
 			matrice[i][5] = unTechnicien.getQualification();
 			i++ ;
@@ -129,6 +129,4 @@ public class PanelTechniciens extends PanelPrincipal implements ActionListener
 			this.viderChamps();
 		}
 	}
-	
-	
 }

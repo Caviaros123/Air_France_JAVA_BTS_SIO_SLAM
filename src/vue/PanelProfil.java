@@ -54,7 +54,7 @@ public class PanelProfil extends PanelPrincipal implements ActionListener
 		this.add(this.btModifier); 
 		//construction du panelForm 
 			this.panelForm.setBounds(380, 40, 250, 270);
-			this.panelForm.setBackground(new Color (246, 172, 34));
+			this.panelForm.setBackground(new Color (0, 153, 255));
 			this.panelForm.setLayout(new GridLayout(7,2));
 			
 			this.panelForm.add(new JLabel("Nom :")); 
